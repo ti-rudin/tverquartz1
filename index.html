@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Быстрое изготовление кухонь из качественных материалов за минимальную цену">
+    <meta name="author" content="Landistore Team">
+    <title>Кухни на заказ</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/pe-icon-7-stroke.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+<!-- Данный шаблон был приобретён на сайте Landistore.com (с) Все права защищены -->
+
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">
+                <span>Кухни на заказ</span>
+                Быстро. Дешево. Качественно
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="phone">
+                    <a href="tel:+89999999999">+8(999) 999-99-99</a>
+                    <span>Звоните с 10:00 до 20:00!</span>
+                </li>
+                <li class="nav-call-btn">
+                    <a href="#modal-call" data-toggle="modal" class="btn main-btn">Заказать звонок</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-7">
+                <div class="header-box">
+                    <h1>Хотите красивую кухню <span>под заказ? ДААААААА</span></h1>
+                    <div class="after-h1">4 предложения напрямую от производителя кухонь в Москве</div>
+                    <a href="#wizzard" class="btn main-btn animate-scroll">Получить 4 предложения</a>
+                </div>
+            </div>
+            <div class="col-sm-5">
+                <img src="img/header-item.png" alt="" class="header-item-img">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-sm-6">
+                <div class="item-box">
+                    <img src="img/icon1.png" alt="">
+                    <div class="item-info">
+                        <span>Без переплат и <br>посредников</span>
+                        <p>Вы получите 4 варианта <br>стоимости кухни без <br>дилерских наценок</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="item-box">
+                    <img src="img/icon2.png" alt="">
+                    <div class="item-info">
+                        <span>Экономия времени <br>на выбор исполнителя</span>
+                        <p>1 запрос = 4 предложения! Колоссальная экономия вашего  времени, средств и нервов</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="item-box">
+                    <img src="img/icon3.png" alt="">
+                    <div class="item-info">
+                        <span>Все акции и скидки <br>в одном месте</span>
+                        <p>На сервисе база проверенных, <br>Московских производителей кухонь <br>и все их спец. предложений</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="item-box">
+                    <img src="img/icon4.png" alt="">
+                    <div class="item-info">
+                        <span>4 разные идеи<br>вашей будущей кухни</span>
+                        <p>Для лучшего визуального <br>восприятия кухни, <br>вы получите 3D эскизы
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="item-box">
+                    <img src="img/icon5.png" alt="">
+                    <div class="item-info">
+                        <span>Быстро. Легко.<br>Бесплатно</span>
+                        <p>К черту регистрацию и смс! <br>Выберите важные для вас параметры <br>и получите отклики от исполнителей</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="item-box">
+                    <img src="img/icon6.png" alt="">
+                    <div class="item-info">
+                        <span>За вас будут <br>бороться</span>
+                        <p>а выбирать <br>лучший вариант <br>будете вы!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section id="wizzard">
+   <div class="container">
+       <div class="row">
+           <div class="col-md-8 col-md-offset-2">
+               <h2>Ответьте на 5 вопросов для получения максимально точных предложений</h2>
+               <div class="stepwizard">
+                   <div class="stepwizard-row setup-panel">
+                       <div class="stepwizard-step">
+                           <a href="#step-1" type="button" class="btn btn-primary btn-circle">1</a>
+                           <p>Step 1</p>
+                       </div>
+                       <div class="stepwizard-step">
+                           <a href="#step-2" type="button" class="btn btn-default btn-circle" disabled="disabled">2</a>
+                           <p>Step 2</p>
+                       </div>
+                       <div class="stepwizard-step">
+                           <a href="#step-3" type="button" class="btn btn-default btn-circle" disabled="disabled">3</a>
+                           <p>Step 3</p>
+                       </div>
+                       <div class="stepwizard-step">
+                           <a href="#step-4" type="button" class="btn btn-default btn-circle" disabled="disabled">4</a>
+                           <p>Step 4</p>
+                       </div>
+                       <div class="stepwizard-step">
+                           <a href="#step-5" type="button" class="btn btn-default btn-circle" disabled="disabled">5</a>
+                           <p>Step 5</p>
+                       </div>
+                       <div class="stepwizard-step">
+                           <a href="#step-6" type="button" class="btn btn-default btn-circle" disabled="disabled">6</a>
+                           <p>Step 6</p>
+                       </div>
+                   </div>
+               </div>
+               <form id="step-form"  method="post" action="file.php" enctype="multipart/form-data">
+                   <div class="setup-content" id="step-1">
+                       <div class="progress">
+                           <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width:20%">20%</div>
+                       </div>
+                       <h3>Шаг 1. Выберите планировку кухни:</h3>
+                       <div class="row">
+                           <div class="col-md-4 col-sm-4">
+                               <div class="select-box">
+                                   <input type="radio" id="option1" name="level1" value="Угловая (Г-образная)">
+                                   <label for="option1">Угловая (Г-образная)</label>
+                                   <img src="img/step1-1.png" alt="">
+                               </div>
+                           </div>
+                           <div class="col-md-4 col-sm-4">
+                               <div class="select-box">
+                                   <input type="radio" id="option2" name="level1" value="Однорядная (линейная)">
+                                   <label for="option2">Однорядная (линейная)</label>
+                                   <img src="img/step1-2.png" alt="">
+                               </div>
+                           </div>
+                           <div class="col-md-4 col-sm-4">
+                               <div class="select-box">
+                                   <input type="radio" id="option3" name="level1" value="П-образная">
+                                   <label for="option3">П - образная</label>
+                                   <img src="img/step1-3.png" alt="">
+                               </div>
+                           </div>
+                           <div class="col-md-4 col-sm-4">
+                               <div class="select-box">
+                                   <input type="radio" id="option4" name="level1" value="Кухня с островом">
+                                   <label for="option4">Кухня с островом</label>
+                                   <img src="img/step1-4.png" alt="">
+                               </div>
+                           </div>
+                           <div class="col-md-4 col-sm-4">
+                               <div class="select-box">
+                                   <input type="radio" id="option5" name="level1" value="Двухрядная">
+                                   <label for="option5">Двухрядная</label>
+                                   <img src="img/step1-5.png" alt="">
+                               </div>
+                           </div>
+                           <div class="col-md-4 col-sm-4">
+                               <div class="select-box">
+                                   <input type="radio" id="option6" name="level1" value="Другая">
+                                   <label for="option6">Другая</label>
+                                   <img src="img/step1-6.png" alt="">
+                               </div>
+                           </div>
+                       </div>
+                       <div class="button-box">
+                           <button class="btn main-btn nextBtn" type="button">Следующий шаг</button>
+                           <div class="count-ques">1 из 5</div>
+                       </div>
+                   </div>
+                   <div class="setup-content" id="step-2">
+                       <div class="progress">
+                           <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">40%</div>
+                       </div>
+                       <h3>Шаг 2. Введите размеры стен для будущей кухни</h3>
+                       <div class="row">
+                           <div class="col-sm-6">
+                               <div class="form-group">
+                                   <label for="level2-1">Высота, мм</label>
+                                   <input type="text" class="form-control" placeholder="2600" id="level2-1" name="level2-1">
+                               </div>
+                               <div class="form-group">
+                                   <label for="level2-2">Ширина, мм</label>
+                                   <input type="text" class="form-control" placeholder="6000" id="level2-2" name="level2-2">
+                               </div>
+                               <div class="form-group">
+                                   <label for="level2-3">Длина, мм</label>
+                                   <input type="text" class="form-control" placeholder="6000" id="level2-3" name="level2-3">
+                               </div>
+                           </div>
+                           <div class="col-sm-6">
+                               <img src="img/plan.png" alt="" class="plan-img">
+                           </div>
+                       </div>
+                       <div class="button-box">
+                           <button class="btn main-btn nextBtn" type="button">Следующий шаг</button>
+                           <div class="count-ques">2 из 5</div>
+                       </div>
+                   </div>
+                   <div class="setup-content" id="step-3">
+                       <div class="progress">
+                           <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">60%</div>
+                       </div>
+                       <h3>Шаг 3. Выберите материал фасада: <span>(можно выбрать несколько вариантов ответа)</span></h3>
+                       <div class="row">
+                           <div class="col-md-4 col-sm-4">
+                               <div class="select-box">
+                                   <input type="checkbox" id="option3-1" name="level3-1" value="Пластик">
+                                   <label for="option3-1">Пластик</label>
+                                   <img src="img/step3-1.jpg" alt="">
+                               </div>
+                           </div>
+                           <div class="col-md-4 col-sm-4">
+                               <div class="select-box">
+                                   <input type="checkbox" id="option3-2" name="level3-2" value="Акрил">
+                                   <label for="option3-2">Акрил</label>
+                                   <img src="img/step3-2.jpg" alt="">
+                               </div>
+                           </div>
+                           <div class="col-md-4 col-sm-4">
+                               <div class="select-box">
+                                   <input type="checkbox" id="option3-3" name="level3-3" value="Массив">
+                                   <label for="option3-3">Массив</label>
+                                   <img src="img/step3-3.jpg" alt="">
+                               </div>
+                           </div>
+                           <div class="col-md-4 col-sm-4">
+                               <div class="select-box">
+                                   <input type="checkbox" id="option3-4" name="level3-4" value="ДСП">
+                                   <label for="option3-4">ДСП</label>
+                                   <img src="img/step3-4.jpg" alt="">
+                               </div>
+                           </div>
+                           <div class="col-md-4 col-sm-4">
+                               <div class="select-box">
+                                   <input type="checkbox" id="option3-5" name="level3-5" value="МДФ Ромочный">
+                                   <label for="option3-5">МДФ Ромочный</label>
+                                   <img src="img/step3-5.jpg" alt="">
+                               </div>
+                           </div>
+                           <div class="col-md-4 col-sm-4">
+                               <div class="select-box">
+                                   <input type="checkbox" id="option3-6" name="level3-6" value="МДФ Крашеный">
+                                   <label for="option3-6">МДФ Крашеный</label>
+                                   <img src="img/step3-6.jpg" alt="">
+                               </div>
+                           </div>
+                       </div>
+                       <div class="button-box">
+                           <button class="btn main-btn nextBtn" type="button">Следующий шаг</button>
+                           <div class="count-ques">3 из 5</div>
+                       </div>
+                   </div>
+                   <div class="setup-content" id="step-4">
+                       <div class="progress">
+                           <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">80%</div>
+                       </div>
+                       <h3>Шаг 4. У вас есть рисунок или картинка вашей будущей кухни? <span>(Вы можете пропустить этот шаг)</span></h3>
+                       <div class="row">
+                           <div class="col-sm-8 col-sm-offset-2">
+                               <div class="drop-zone">
+                                   <div class="drop-icon">
+                                       <span class="imgupload"><i class="pe-7s-photo"></i></span>
+                                       <span class="imgupload ok"><i class="pe-7s-check"></i></span>
+                                       <span class="imgupload stop"><i class="pe-7s-close"></i></span>
+                                   </div>
+                                   <button type="button" id="btnup" class="btn main-btn">Выбрать фотографию</button>
+                                   <input type="file" value="1" name="file[]" id="fileup" multiple>
+
+                                   <p class="drop-info">Загрузите 1-2 фото. Размер всех не более 5 mb.<br>
+                                       Поддерживаемые форматы фотографий: jpeg, jpg, png, gif, bmp.</p>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="button-box">
+                           <button class="btn main-btn nextBtn" type="button">Следующий шаг</button>
+                           <div class="count-ques">4 из 5</div>
+                       </div>
+                   </div>
+                   <div class="setup-content" id="step-5">
+                       <div class="progress">
+                           <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%">100%</div>
+                       </div>
+                       <h3>Шаг 5. Какую бытовую технику планируете расположить на кухне?<span>(можно выбрать несколько вариантов ответа)</span></h3>
+                       <div class="row">
+                           <div class="col-md-4 col-sm-4">
+                               <div class="select-box">
+                                   <input type="checkbox" id="option5-1" name="level5-1" value="Варочная панель">
+                                   <label for="option5-1">Варочная панель</label>
+                                   <img src="img/step5-1.jpg" alt="">
+                               </div>
+                           </div>
+                           <div class="col-md-4 col-sm-4">
+                               <div class="select-box">
+                                   <input type="checkbox" id="option5-2" name="level5-2" value="Духовой шкаф">
+                                   <label for="option5-2">Духовой шкаф</label>
+                                   <img src="img/step5-2.jpg" alt="">
+                               </div>
+                           </div>
+                           <div class="col-md-4 col-sm-4">
+                               <div class="select-box">
+                                   <input type="checkbox" id="option5-3" name="level5-3" value="Посудомоечная машина">
+                                   <label for="option5-3">Посудомоечная машина</label>
+                                   <img src="img/step5-3.jpg" alt="">
+                               </div>
+                           </div>
+                           <div class="col-md-4 col-sm-4">
+                               <div class="select-box">
+                                   <input type="checkbox" id="option5-4" name="level5-4" value="Вытяжка открытого типа">
+                                   <label for="option5-4">Вытяжка открытого типа</label>
+                                   <img src="img/step5-4.jpg" alt="">
+                               </div>
+                           </div>
+                           <div class="col-md-4 col-sm-4">
+                               <div class="select-box">
+                                   <input type="checkbox" id="option5-5" name="level5-5" value="Микроволновая печь">
+                                   <label for="option5-5">Микроволновая печь</label>
+                                   <img src="img/step5-5.jpg" alt="">
+                               </div>
+                           </div>
+                           <div class="col-md-4 col-sm-4">
+                               <div class="select-box">
+                                   <input type="checkbox" id="option5-6" name="level5-6" value="Встроенный холодильник">
+                                   <label for="option5-6">Встроенный холодильник</label>
+                                   <img src="img/step5-6.jpg" alt="">
+                               </div>
+                           </div>
+                       </div>
+                       <div class="button-box">
+                           <button class="btn main-btn nextBtn" type="button">Следующий шаг</button>
+                           <div class="count-ques">5 из 5</div>
+                       </div>
+                   </div>
+
+                   <div class="setup-content finish-step" id="step-6">
+                       <div class="row">
+                           <div class="col-md-8 col-md-offset-2">
+                               <i class="pe-7s-mail-open-file"></i>
+                               <p class="title">ОТЛИЧНО!</p>
+                               <p class="subtitle">Для того чтобы производители могли с вами связаться введите свое имя и телефон.</p>
+                               <p class="sub">ВАЖНО! Если вы загрузили фотографии, пожалуйста, дождитесь их выгрузки и появления страницы "спасибо"!</p>
+                               <input type="text" class="form-control" name="name" placeholder="Имя">
+                               <input type="text" class="form-control phone-mask" name="phone" placeholder="Телефон" required="required">
+                               <input type="hidden" name="formData" value="Заявка на получение предложений">
+                               <input type="submit" class="btn main-btn" name="submit" value="Получить предложение">
+                           </div>
+                       </div>
+
+                   </div>
+               </form>
+           </div>
+       </div>
+   </div>
+</section>
+
+<section id="how">
+    <div class="container">
+        <div class="how-card">
+            <h2>Как это работает?</h2>
+            <div class="after-h2">Замер необходим если у вас еще нет проекта кухни и нет возможности самостоятельно снять замеры.
+                Мы берем небольшую оплату - <span>300 руб.</span> за выезд специалиста на дом и создание профессионального проекта.</div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="how-box">
+                        <img src="img/header-icon1.png" alt="">
+                        <h4>Мы снимаем замеры вашей кухни</h4>
+                        <p>«Если у вас нет замеров и проекта - наш специалист может выехать на дом»</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="how-box">
+                        <img src="img/header-icon2.png" alt="">
+                        <h4>Мы вместе утверждаем проект кухни</h4>
+                        <p>«Мы быстро делаем новые 3D-эскизы кухни и помогаем с выбором материалов»</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="how-box">
+                        <img src="img/header-icon3.png" alt="">
+                        <h4>Вы получаете кухню на лучших условиях</h4>
+                        <p>Вам останется выбрать самое лучшее предложение и заказать кухню</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<section id="work">
+    <div class="container">
+        <h2>Каталог уже установленных кухонь</h2>
+        <div class="after-h2">Здесь вы сможете быстро прицениться и заказать любую понравившуюся кухню!</div>
+
+        <div id="work-carousel" class="owl-carousel">
+            <div>
+                <div class="work-box">
+                    <a data-fancybox="gallery" href="img/work1.jpg">
+                        <img src="img/work1.jpg">
+                        <div>
+                            <span class="pe-7s-search"></span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <div class="work-box">
+                    <a data-fancybox="gallery" href="img/work2.jpg">
+                        <img src="img/work2.jpg">
+                        <div>
+                            <span class="pe-7s-search"></span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <div class="work-box">
+                    <a data-fancybox="gallery" href="img/work3.jpg">
+                        <img src="img/work3.jpg">
+                        <div>
+                            <span class="pe-7s-search"></span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <div class="work-box">
+                    <a data-fancybox="gallery" href="img/work4.jpg">
+                        <img src="img/work4.jpg">
+                        <div>
+                            <span class="pe-7s-search"></span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <div class="work-box">
+                    <a data-fancybox="gallery" href="img/work5.jpg">
+                        <img src="img/work5.jpg">
+                        <div>
+                            <span class="pe-7s-search"></span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <div class="work-box">
+                    <a data-fancybox="gallery" href="img/work6.jpg">
+                        <img src="img/work6.jpg">
+                        <div>
+                            <span class="pe-7s-search"></span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <div class="work-box">
+                    <a data-fancybox="gallery" href="img/work7.jpg">
+                        <img src="img/work7.jpg">
+                        <div>
+                            <span class="pe-7s-search"></span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="footer-title">Красивые кухни под заказ</div>
+        <div class="footer-action">
+            <a href="#modal-call" data-toggle="modal" class="btn main-btn">Заказать звонок</a>
+            <div class="contact">
+                <span class="adress">Ленинградское ш., 16А, стр. 4, Москва, Россия</span>
+                <a href="tel:+89999999999">+8(999) 999-99-99</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="copyright">© Все права защищены. Каталог сайтов
+                        <a href="https://landistore.com" target="_blank">Landistore</a>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <a href="#modal-privacy" data-toggle="modal" class="link-privacy">Политика конфиденциальности</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div id="modal-call" class="modal fade" role="dialog">
+    <div class="modal-dialog call_modal">
+        <div class="modal-content">
+            <form id="form-call" class="form-call">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><i class="pe-7s-close-circle"></i></button>
+                    <h4 class="modal-title">Заказать обратный звонок</h4>
+                    <p class="after-modal-title">Оставьте свой номер телефона и наши менеджеры свяжутся с вами в ближайшее время</p>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <input type="text" name="phone" class="form-control phone-mask" placeholder="+8 (999) 999-99-99" required>
+                    </div>
+                    <input type="hidden" name="formData" value="Заказ обратного звонка">
+                    <button type="submit" class="btn main-btn form-btn">Перезвоните мне</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div id="modal-privacy" class="modal fade" role="dialog">
+    <div class="modal-dialog privacy_modal modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><i class="pe-7s-close-circle"></i></button>
+                <h4 class="modal-title">Политика конфиденциальности</h4>
+            </div>
+            <div class="modal-body">
+                <div class="privacy_text">
+                    <h4>1.Сбор информации</h4>
+                    <p>Мы собираем информацию, когда вы регистрируетесь на сайте, заходите на свой аккаунт, совершаете покупку, участвуете в акции и/или выходите из аккаунта. Информация включает ваше имя, адрес электронной почты, номер телефона и данные
+                        по кредитной карте. Кроме того, мы автоматически регистрируем ваш компьютер и браузер, включая IP, ПО и аппаратные данные, а также адрес запрашиваемой страницы.</p>
+                    <h4>2. Использование информации</h4>
+                    <p>Информация, которую мы получаем от вас, может быть использована, чтобы:
+                    </p>
+                    <ul>
+                        <li>Сделать услуги соответствующими вашим индивидуальным запросам</li>
+                        <li>Предложить персонализированную рекламу</li>
+                        <li>Улучшить наш сайт</li>
+                        <li>Улучшить систему поддержки пользователей</li>
+                        <li>Связаться с вами по электронной почте</li>
+                        <li>Устроить акцию, конкурс или организовать исследование</li>
+                    </ul>
+                    <p></p>
+                    <h4>3. Защита личных данных при онлайн-продажах</h4>
+                    <p>Мы являемся единственным владельцем информации, собранной на данном сайте. Ваши личные данные не будут проданы или каким-либо образом переданы третьим лицам по каким-либо причинам, за исключением необходимых данных для выполнения
+                        запроса или транзакции, например, при отправке заказа.</p>
+                    <h4>4. Раскрытие информации третьим лицам</h4>
+                    <p>Мы не продаем, не обмениваем и не передаем личные данные сторонним компаниям. Это не относится к надежным компаниям, которые помогают нам в работе сайта и ведении бизнеса при условии, что они соглашаются сохранять конфиденциальность
+                        информации.</p>
+                    <p>Мы готовы делиться информацией, чтобы предотвратить преступления или помочь в их расследовании, если речь идет о подозрении на мошенничество, действиях, физически угрожающих безопасности людей, нарушениях правил использования или
+                        в случаях, когда это предусмотрено законом.</p>
+                    <p>Неконфиденциальная информация может быть предоставлена другим компаниям в целях маркетинга, рекламы и т.д.</p>
+                    <h4>5. Защита информации</h4>
+                    <p>Мы используем различные средства безопасности, чтобы гарантировать сохранность ваших личных данных. К вашим услугам самое современное шифрование. VpnMentor также защищает ваши данные в режиме оффлайн. Только те сотрудники, которые
+                        работают с конкретным заданием (например, техническая поддержка или проведение оплаты) получают доступ к личным данным. Сервера и компьютеры, на которых записана конфиденциальная информация, находятся в безопасном окружении.</p>
+                    <p>
+                        <b>Использование файлов «cookie»</b>
+                    </p>
+                    <p>Наши файлы «cookie» используются для улучшения доступа к сайту и определения повторных посещений. Кроме того, они позволяют отследить наиболее интересующие запросы. Файлы «cookie» не передают никакую конфиденциальную информацию.</p>
+                    <h4>6. Отказ от подписки</h4>
+                    <p>Мы используем электронную почту, чтобы предоставить вам информацию по вашему заказу, новостям компании, информации по продуктам и т.д. Если вы желаете отказаться от подписки, в каждом письме даны подробные инструкции, как вы можете
+                        это сделать.</p>
+                    <h4>7. Согласие</h4>
+                    <p>Пользуясь услугами нашего сайта, вы автоматически соглашаетесь с нашей политикой конфиденциальности.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="modal-thank" class="modal fade" role="dialog">
+    <div class="modal-dialog call_modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><i class="pe-7s-close-circle"></i></button>
+                <h4 class="modal-title">Спасибо!</h4>
+                <p class="after-modal-title">Благодарим вас за оформление заявки. Наши менеджеры свяжутся с вами в ближайшее время</p>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.fancybox.min.js"></script>
+<script src="js/jquery.maskedinput.min.js"></script>
+<script src="js/main.js"></script>
+<!-- Данный шаблон был приобретён на сайте Landistore.com (с) Все права защищены -->
+</body>
+
+</html>
